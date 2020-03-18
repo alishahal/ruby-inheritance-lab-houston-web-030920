@@ -4,7 +4,7 @@ class Teacher<User
   
   def teach
     
-    KNOWLEDGE.select { |random| rand(random) }
+    KNOWLEDGE.sample
     
   end
 
